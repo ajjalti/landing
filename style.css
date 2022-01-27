@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'outfit';
+    src: url('https://fonts.google.com/specimen/Outfit');
+}
+*{
+    font-family: 'outfit';
+}
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.container{
+    max-width: 250px;
+    margin-top: 20%;
+    border-radius: 20px;
+    background-color: hsl(0, 0%, 100%);
+}
+img{
+    border-radius: 10px;
+}
+img+div{
+    text-align: center;
+    font-size: 15pt!important;
+    color: hsl(218, 44%, 22%);
+}
+p{
+    text-align: center;
+    font-size: 12pt!important;
+    color: hsl(220, 15%, 55%);
+    line-height: 20px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
